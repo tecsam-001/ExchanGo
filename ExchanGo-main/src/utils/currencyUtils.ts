@@ -1,0 +1,110 @@
+export const getCurrencySymbol = (currencyCode: string): string => {
+  const currencySymbols: { [key: string]: string } = {
+    // Major currencies
+    USD: "$",
+    EUR: "€",
+    GBP: "£",
+    JPY: "¥",
+    CHF: "CHF",
+    CAD: "C$",
+    AUD: "A$",
+    CNY: "¥",
+    INR: "₹",
+    BRL: "R$",
+    RUB: "₽",
+    KRW: "₩",
+    MXN: "$",
+    SGD: "S$",
+    HKD: "HK$",
+    SEK: "kr",
+    NOK: "kr",
+    DKK: "kr",
+    PLN: "zł",
+    CZK: "Kč",
+    HUF: "Ft",
+    RON: "lei",
+    BGN: "лв",
+    HRK: "kn",
+    TRY: "₺",
+    ILS: "₪",
+    ZAR: "R",
+    THB: "฿",
+    MYR: "RM",
+    IDR: "Rp",
+    PHP: "₱",
+    VND: "₫",
+
+    // African currencies
+    MAD: "MAD",
+    EGP: "E£",
+    NGN: "₦",
+    KES: "KSh",
+    GHS: "GH₵",
+    UGX: "USh",
+    TZS: "TSh",
+    XOF: "CFA",
+    XAF: "FCFA",
+    ZMW: "ZK",
+    BWP: "P",
+    MWK: "MK",
+    LSL: "L",
+    SZL: "E",
+    NAD: "N$",
+
+    // Middle Eastern currencies
+    AED: "د.إ",
+    SAR: "ر.س",
+    QAR: "ر.ق",
+    KWD: "د.ك",
+    BHD: "د.ب",
+    OMR: "ر.ع.",
+    JOD: "د.ا",
+    LBP: "ل.ل",
+    TND: "د.ت",
+    DZD: "د.ج",
+
+    // Asian currencies
+    TWD: "NT$",
+    PKR: "₨",
+    BDT: "৳",
+    LKR: "Rs",
+    NPR: "₨",
+    MMK: "K",
+    KHR: "៛",
+    LAK: "₭",
+    MNT: "₮",
+
+    // European currencies
+    UAH: "₴",
+    BYN: "Br",
+    MDL: "L",
+    GEL: "₾",
+    AMD: "֏",
+    AZN: "₼",
+
+    // American currencies
+    ARS: "$",
+    CLP: "$",
+    COP: "$",
+    PEN: "S/",
+    UYU: "$U",
+    VEF: "Bs",
+    GYD: "G$",
+    BBD: "Bds$",
+    JMD: "J$",
+    TTD: "TT$",
+
+    // Oceanian currencies
+    NZD: "NZ$",
+    FJD: "FJ$",
+    PGK: "K",
+    WST: "T",
+    TOP: "T$",
+    VUV: "VT",
+
+    // Default fallback
+    DEFAULT: currencyCode,
+  };
+
+  return currencySymbols[currencyCode] || currencyCode;
+};

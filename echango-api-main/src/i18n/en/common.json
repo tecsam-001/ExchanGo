@@ -1,0 +1,10 @@
+{
+  "confirmEmail": "Confirm email",
+  "resetPassword": "🔐 Reset your Exchango24 password",
+  "emailChanged": "Your new email address has been saved",
+  "passwordChanged": "Your password has been successfully updated",
+  "officeRegistrationReceived": "Your registration has been received — your listing is under review",
+  "officeApproved": "✅ Your exchange office is now live on Exchango24",
+  "officeRejected": "🛑 Your registration on Exchango24 was not approved",
+  "rateUpdateReminder": "🔔 Rate Update Reminder - Keep Your Exchange Rates Current"
+}

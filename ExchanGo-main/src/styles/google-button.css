@@ -1,0 +1,56 @@
+/* Custom Google Button Styling */
+.google-login-button {
+  all: unset !important;
+  width: 100% !important;
+  height: 50px !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 8px !important;
+  background-color: rgb(255, 255, 255) !important;
+  color: #111111 !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  line-height: 22px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.google-login-button:hover {
+  border-color: #ffffff !important;
+  background-color: #ffffff !important;
+}
+
+.google-login-button:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+/* Override Google's default button styles */
+div[data-testid="google-login-button"] {
+  width: 100% !important;
+}
+
+div[data-testid="google-login-button"] > div {
+  width: 100% !important;
+  height: 50px !important;
+  border: 1px solid #dedede !important;
+  border-radius: 8px !important;
+  background-color: white !important;
+  color: #111111 !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  line-height: 22px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+div[data-testid="google-login-button"] > div:hover {
+  border-color: #20523c !important;
+  background-color: #f8f9fa !important;
+}

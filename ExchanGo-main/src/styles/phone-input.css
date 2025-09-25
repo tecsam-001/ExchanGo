@@ -1,0 +1,61 @@
+.phone-input-custom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.phone-input-custom .PhoneInputCountrySelect {
+  margin-right: 12px;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+  cursor: pointer;
+}
+
+.phone-input-custom .PhoneInputCountrySelect:focus {
+  outline: none;
+}
+
+.phone-input-custom .PhoneInputCountrySelectArrow {
+  color: #585858;
+  margin-left: 4px;
+}
+
+.phone-input-custom .PhoneInputInput {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+  outline: none;
+}
+
+.phone-input-custom .PhoneInputInput::placeholder {
+  color: #585858;
+}
+
+.phone-input-custom .PhoneInputInput:disabled {
+  cursor: not-allowed;
+}
+
+.phone-input-custom .PhoneInputCountryIcon {
+  width: 20px;
+  height: 15px;
+  margin-right: 8px;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.PhoneInputCountrySelect option {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.phone-input-custom.opacity-50 .PhoneInputCountrySelect,
+.phone-input-custom.opacity-50 .PhoneInputInput {
+  cursor: not-allowed;
+}

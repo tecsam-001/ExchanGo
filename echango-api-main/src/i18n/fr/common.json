@@ -1,0 +1,10 @@
+{
+  "confirmEmail": "Confirmer l'e-mail",
+  "resetPassword": "🔐 Réinitialisation de votre mot de passe Exchango24",
+  "emailChanged": "Votre nouvelle adresse email est enregistrée",
+  "passwordChanged": "Votre mot de passe a été modifié avec succès",
+  "officeRegistrationReceived": "Votre inscription est bien enregistrée — fiche en cours de vérification",
+  "officeApproved": "✅ Votre bureau est désormais visible sur Exchango24",
+  "officeRejected": "🛑 Votre inscription sur Exchango24 n'a pas été validée",
+  "rateUpdateReminder": "🔔 Rappel de mise à jour des taux - Maintenez vos taux de change à jour"
+}
